@@ -1,5 +1,5 @@
 """
-My simple image converter to convert image formats to whatever I need
+My simple image converter to convert image formats
 For more info check the docs
 https://pillow.readthedocs.io/en/stable/reference/Image.html#functions
 
