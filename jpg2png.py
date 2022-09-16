@@ -1,5 +1,5 @@
 """
-My simple image converter to convert image formats
+My simple image converter to convert from Jpg to png
 For more info check the docs
 https://pillow.readthedocs.io/en/stable/reference/Image.html#functions
 
@@ -10,7 +10,7 @@ import os
 from PIL import Image, ImageFilter 
 
 # for use by command line 
-#  Grab the 1st and 2nd argument 
+# Grab the 1st and 2nd argument 
 image_folder = sys.argv[1] # using sys module this points to folder with pics
 output_folder = sys.argv[2]  # this is the destination folder where converted pics are saved
 
